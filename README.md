@@ -1,6 +1,15 @@
-# AngularConnectButton
+# Angular Radix Connect Button
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
+## About
+
+Example usage of `radix-connect-button` custom element inside Angular 15 app.
+
+- see `app.component.ts` for `connect-button` configuration
+- When creating your own Angular app, please remember to set `"allowSyntheticDefaultImports": true` inside `tsconfig.json`'s `compilerOptions` 
+- add `CUSTOM_ELEMENTS_SCHEMA` to your schemas inside `@NgModule` because Radix Connect Button is a Custom Element
+- if you want to include `IBM Plex Sans` font inside your assets, please add `node_modules/@radixdlt/connect-button/dist/style.css` into your `angular.json` styles. Otherwise `radix-connect-button` will insert `<link>` tag which will load required fonts
+
+See [connect-button repository](https://github.com/radixdlt/connect-button) for more information
 
 ## Development server
 
